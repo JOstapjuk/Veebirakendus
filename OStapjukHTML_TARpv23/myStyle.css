@@ -1,0 +1,73 @@
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px; /* Optional padding */
+}
+
+header{
+    color: black; /*teksti värv*/
+    background-color: FloralWhite; /* tausta värv*/
+    text-align: center;
+    border: solid 6pt Chocolate; /*piir - solid, dashed, dotted, double*/
+    border-radius: 30px;
+    padding: 1%; /* */
+    margin-bottom: 20px;
+    background-image: url("flower.png");
+    background-repeat: repeat ;
+    background-position: left;
+    background-size: contain; /* mahub conteineri sisse */
+}
+
+main section {
+    background-color: FloralWhite; /* tausta värv*/
+    border: dashed 4pt Chocolate;
+    border-radius: 30px;
+    text-align: center;
+    margin: 5px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main section h2{
+    color: SaddleBrown;
+    font-variant: small-caps;
+    text-align: center;
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none; /*Loetelu markerid*/
+    padding: 0;
+    overflow: hidden; /*kuidas näidata nav elemendid*/
+    background-color: Linen;
+    margin-bottom: 20px;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block; /*ühe realine*/
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*underline*/
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover { /*link fookuses*/
+    background-color: OldLace;
+    border: solid 2pt PeachPuff;
+    border-radius: 30px;
+}
+
+footer {
+    color: gray; /*teksti värv*/
+    background-color: #FFF8F4; /* tausta värv*/
+    width: 50%; /* laius*/
+    text-align: center;
+    border: solid 2pt Chocolate; /*piir - solid, dashed, dotted, double*/
+    border-radius: 30px;
+    padding: 1%; /* */
+    margin-top: 20px;
+}
