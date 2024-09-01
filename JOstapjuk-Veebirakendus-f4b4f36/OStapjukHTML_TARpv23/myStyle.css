@@ -1,0 +1,75 @@
+.container {
+    max-width: 1200px; /* Ensures the container does not exceed a maximum width */
+    margin: 0 auto; /* Centers the container horizontally on the page */
+    padding: 0 20px; /* Adds optional padding inside the container */
+    text-align: center; /* Centers the text inside the container */
+}
+
+
+header{
+    color: black; /*teksti värv*/
+    background-color: FloralWhite; /* tausta värv*/
+    text-align: center;
+    border: solid 6pt Chocolate; /*piir - solid, dashed, dotted, double*/
+    border-radius: 30px;
+    padding: 1%; /* */
+    margin-bottom: 20px;
+    background-image: url("flower.png");
+    background-repeat: repeat ;
+    background-position: left;
+    background-size: contain; /* mahub conteineri sisse */
+}
+
+main section {
+    background-color: FloralWhite; /* Background color */
+    border: dashed 4pt Chocolate;
+    border-radius: 30px;
+    text-align: center; /* Centers text inside the section */
+    margin: 20px auto; /* Centers the section horizontally and adds margin */
+    width: 80%; /* Width can be adjusted */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items inside the flex container */
+    gap: 20px;
+}
+
+main section h2{
+    color: SaddleBrown;
+    font-variant: small-caps;
+    text-align: center;
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none; /*Loetelu markerid*/
+    padding: 0;
+    overflow: hidden; /*kuidas näidata nav elemendid*/
+    background-color: Linen;
+    margin-bottom: 20px;
+}
+nav li {
+    display: inline-block; /* Use inline-block to avoid float issues */}
+nav li a {
+    display: block; /*ühe realine*/
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*underline*/
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover { /*link fookuses*/
+    background-color: OldLace;
+    border: solid 2pt PeachPuff;
+    border-radius: 30px;
+}
+
+footer {
+    color: gray; /* Text color */
+    background-color: #FFF8F4; /* Background color */
+    width: 80%; /* Width of the footer */
+    text-align: center; /* Centers text inside the footer */
+    border: solid 2pt Chocolate; /* Border style */
+    border-radius: 30px;
+    padding: 1%; /* Padding inside the footer */
+    margin: 20px auto; /* Centers the footer and adds ma */
+}
