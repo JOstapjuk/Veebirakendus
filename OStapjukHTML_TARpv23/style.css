@@ -1,0 +1,47 @@
+header, footer{
+	color: black; /*teksti värv*/
+	background-color: BlanchedAlmond; /* tausta värv*/
+	width: 50%; /* laius*/
+	text-align: center;
+	border: double 4pt BurlyWood; /*piir - solid, dashed, dotted, double*/
+	border-radius: 60px;
+	padding: 1%; /* */
+}
+
+main section {
+	background-color: AntiqueWhite; /* tausta värv*/
+	border: solid 4pt BurlyWood;
+	border-radius: 30px;
+	margin: 5px;
+	width: 40%;
+}
+
+main section h2{
+	color: SaddleBrown;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+nav ul {
+  list-style-type: none; /*Loetelu markerid*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*kuidas näidata nav elemendid*/
+  background-color: BlanchedAlmond;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block; /*ühe realine*/
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /*underline*/
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover { /*link fookuses*/
+  background-color: AntiqueWhite;
+  border: solid 2pt BurlyWood;
+  border-radius: 30px;
+}

@@ -1,0 +1,198 @@
+#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+#eesti tr:nth-child(1){ /*1. rida*/
+    background: blue;
+}
+#eesti tr:nth-child(2){ /*2. rida*/
+    background: black;
+}
+#eesti tr:nth-child(3){ /*3. rida*/
+    background: white;
+}
+/*Rootsi lipp*/
+#rootsi{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 80px;
+    left: 370px;
+}
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: dodgerblue;
+    width: 100px;
+}
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: dodgerblue;
+    width: 180px;
+}
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2){
+    background-color: yellow;
+    width: 40px;
+}
+#rootsi tr:nth-child(2){
+    background-color: yellow;
+    width: 40px;
+    height: 45px;
+}
+/*Irelandi lipp*/
+#ireland{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 320px;
+    left: 370px;
+}
+#ireland tr:nth-child(1) td:nth-child(1){
+    background-color: forestgreen;
+}
+#ireland tr:nth-child(2) td:nth-child(2){
+    background-color: white;
+}
+#ireland tr:nth-child(1) td:nth-child(3){
+    background-color: orange;
+}
+/*Poola lipp*/
+#poola{
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+#poola tr:nth-child(1){
+    background-color: white;
+}
+#poola tr:nth-child(2){
+    background-color: red;
+}
+#chile {
+    width: 330px;
+    height: 210px;
+    border: 1px solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 570px;
+    left: 20px;
+}
+#chile tr:nth-child(1) td:nth-child(1){
+    background-color: darkblue;
+    width: 100px;
+}
+#chile tr:nth-child(2) td:nth-child(2),
+#chile tr:nth-child(2) td:nth-child(1){
+    background-color: red;
+}
+#chile tr:nth-child(1) td:nth-child(2){
+    background-color: white;
+}
+
+/* Star styles */
+#star-five {
+    margin: 40px 0;
+    position: relative;
+    display: block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent; /* Reduced from 100px */
+    border-bottom: 35px solid white; /* Reduced from 70px */
+    border-left: 50px solid transparent; /* Reduced from 100px */
+    transform: rotate(35deg);
+    top: 605px;
+    left: 70px;
+}
+
+#star-five:before {
+    border-bottom: 40px solid white; /* Reduced from 80px */
+    border-left: 15px solid transparent; /* Reduced from 30px */
+    border-right: 15px solid transparent; /* Reduced from 30px */
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -22.5px; /* Adjusted to keep proportions */
+    left: -32.5px; /* Adjusted to keep proportions */
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+#star-five:after {
+    position: absolute;
+    display: block;
+    color: white;
+    top: 1.5px; /* Adjusted to keep proportions */
+    left: -52.5px; /* Adjusted to keep proportions */
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent; /* Reduced from 100px */
+    border-bottom: 35px solid white; /* Reduced from 70px */
+    border-left: 50px solid transparent; /* Reduced from 100px */
+    transform: rotate(-70deg);
+    content: '';
+}
+
+/* Position the smaller star within the Chile flag */
+#star-five {
+    top: 605px;
+    left: 70px;
+    transform: translate(-50%, -50%) rotate(35deg);
+    position: absolute;
+    z-index: 1;
+}
+
+#tabel{
+     width: 40%;
+     height: 210px;
+     border: 1px solid grey;
+     border-spacing: 0;
+     position: absolute;
+     top: 570px;
+     left: 370px;
+    text-align: center;
+ }
+#tabel tr:nth-child(1) td:nth-child(1){
+    background-color: blue;
+}
+#tabel tr:nth-child(2) td:nth-child(1){
+    background-color: orange;
+}
+#tabel tr:nth-child(3) td:nth-child(1){
+    background-color: antiquewhite;
+}
+#tabel tr:nth-child(4) td:nth-child(1){
+    background-color: cadetblue;
+}
+#tabel tr:nth-child(1) td:nth-child(2){
+    background-color: aquamarine;
+}
+#tabel tr:nth-child(2) td:nth-child(2){
+    background-color: brown;
+}
+#tabel tr:nth-child(3) td:nth-child(2){
+    background-color: green;
+}
+#tabel tr:nth-child(4) td:nth-child(2){
+    background-color: lightgray;
+}
+#tabel tr:nth-child(1) td:nth-child(3){
+    background-color: red;
+}
+#tabel tr:nth-child(2) td:nth-child(3){
+    background-color: mediumvioletred;
+}

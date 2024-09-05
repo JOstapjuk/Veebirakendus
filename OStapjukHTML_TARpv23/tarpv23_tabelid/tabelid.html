@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid HTML</title>
+    <link rel="stylesheet" href="tabelStyle.css">
+</head>
+<body>
+<h1>Tabelid HTML keeles</h1>
+<!--tabel ar.1-->
+<table id="t1">
+    <caption>Väga lihtne tabel</caption>
+    <tr>
+        <td class="kollane">A</td>
+        <td>B</td>
+    </tr>
+    <tr>
+        <td class="olive">C</td>
+        <td>D</td>
+    </tr>
+</table>
+<!--tabel ar.2-->
+<br>
+<br>
+<!--br-break-->
+<table id="t2">
+    <caption>Rowspan omadusega tabel</caption>
+    <tr>
+        <td rowspan="2" class="kollane">A</td>
+        <td>B</td>
+    </tr>
+    <tr>
+        <td class="olive">C</td>
+    </tr>
+</table>
+<!--tabel ar.3-->
+<br>
+<br>
+<!--br-break-->
+<table id="t3">
+    <caption>Colspan omadusega tabel</caption>
+    <tr>
+        <td colspan="3" class="kollane">A</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td class="olive">C</td>
+        <td>D</td>
+    </tr>
+</table>
+<!--tabel ar.4-->
+<br>
+<br>
+<!--br-break-->
+<table id="t4">
+    <caption>Oma tabel</caption>
+    <tr>
+        <td rowspan="5" class="olive">A</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="lime">B</td>
+        <td class="kollane">C</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="red">D</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="blue">E</td>
+
+    </tr>
+    <tr>
+        <td class="brown">F</td>
+        <td class="purple">FF</td>
+        <td class="green">F</td>
+    </tr>
+</table>
+<!--tabel ar.5-->
+<table id="t5">
+    <caption>Oma tabel v2</caption>
+    <tr>
+        <td colspan="5" class="olive">1</td>
+    </tr>
+    <tr>
+        <td rowspan="5" class="kollane">2</td>
+        <td colspan="3" class="lime">5</td>
+        <td rowspan="4" class="blue">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3" class="red">6</td>
+        <td class="brown">9</td>
+        <td rowspan="2" class="purple">8</td>
+    </tr>
+    <tr>
+        <td class="beige">10</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="white">7</td>
+    </tr>
+    <tr>
+        <td colspan="4" class="gray">3</td>
+    </tr>
+</table>
+</body>
+</html>
